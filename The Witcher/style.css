@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+.container-top {
+    background: url(img/bg.jpg);
+    width: calc(100vw - 17px);
+    height: 100vh;
+    background-size: cover;
+}
+
+.main {
+    width: calc(100vw - 17px);
+    height: 100vh;
+    display: flex;
+    background: #212121;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    width: 550px;
+}
+
+.main-right > h1 {
+    font-size: 50px;
+}
+
+.main-right > p {
+    font-size: 18px;
+    width: 550px;
+    color: #e2e2e2;
+    line-height: 28px;
+}
+
+
+.main-right__link {
+    color: #fff;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.main-right__link:hover {
+    color: #ffa3a7;
+}
+
+
+
+.gallery {
+    width: 900px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.gallery__img {
+    width: 270px;
+    height: 270px;
+    margin: 15px;
+    object-fit: cover;
+    transition: 0.3s;
+}
+
+.gallery__img:hover {
+    transform: scale(1.05);
+}
