@@ -1,0 +1,23 @@
+.avatar {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 100%;
+}
+
+body {
+    height: 100vh;
+    font-family: Arial;
+    background: url('https://images.unsplash.com/photo-1620121692029-d088224ddc74?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+    color: #fff;
+}
+
+.wrapper {
+    width: 330px;
+    background: rgba(72, 86, 196, 0.6);
+    padding: 40px;
+    text-align: center;
+    border-radius: 20px;
+    margin: 0 auto;
+}
